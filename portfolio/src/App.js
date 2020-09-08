@@ -17,8 +17,6 @@ function App() {
           scroll
         >
           <Navigation>
-            <Link to="/AboutMe">AboutMe</Link>
-            <Link to="/Resume">Resume</Link>
             <Link to="/Projects">Projects</Link>
             <Link to="/Contact">Contact</Link>
           </Navigation>
