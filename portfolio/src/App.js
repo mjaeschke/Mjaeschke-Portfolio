@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Layout, Header, Navigation, Content } from "react-mdl";
 import "./App.css";
 import Main from "./components/Main";
 import { Link } from "react-router-dom";
@@ -8,7 +8,14 @@ function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-        <Header title="Title" scroll>
+        <Header
+          title={
+            <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              Michael Jaeschke
+            </Link>
+          }
+          scroll
+        >
           <Navigation>
             <Link to="/AboutMe">AboutMe</Link>
             <Link to="/Resume">Resume</Link>
@@ -16,14 +23,7 @@ function App() {
             <Link to="/Contact">Contact</Link>
           </Navigation>
         </Header>
-        <Drawer title="Title">
-          <Navigation>
-            <Link to="AboutMe">AboutMe</Link>
-            <Link to="/Resume">Resume</Link>
-            <Link to="/Projects">Projects</Link>
-            <Link to="/Contact">Contact</Link>
-          </Navigation>
-        </Drawer>
+
         <Content>
           <div className="page-content" />
           <Main></Main>
