@@ -11,7 +11,7 @@ class LandingPage extends Component {
             <img className="avatar-img" src={logo} alt="avatar" />
 
             <div className="text-box">
-              <h1>Fullstack Web Developer</h1>{" "}
+              <h1>Fullstack Web Developer</h1>
               <p>
                 My name is Michael Jaeshcke I have aquired an associates in
                 science for Computer Science and I am also a coding bootcamp
