@@ -1,2 +1,2 @@
 # Mjaeschke-Portfolio
- My portfolio made with react
+ this is a portfolio displaying a few apps that i have crated. this portfolio has been created all through react.
